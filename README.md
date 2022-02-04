@@ -18,3 +18,4 @@ brute_force.py: imports the model from build_model.py and performs calibration f
 simulation_results.py: based on the values obtained by the calibration, runs the calibrated model and plots the observed and the simulated streamflow.
 
 random_forest.py: trains a random forest model (max_depth = 6, n_estimators = 800), predicts the streamflow and compares the observed and the predicted streamflow.
+
